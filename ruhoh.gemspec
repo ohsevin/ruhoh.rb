@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.description       = 'Ruhoh is a Universal API for your static blog.'
   s.executables       = ["ruhoh"]
   
-  s.add_dependency 'rack', "~> 1.4"
+  s.add_dependency 'rack', ">= 1.4", "< 4.0"
   s.add_dependency 'mustache', "~> 0.99"
   s.add_dependency 'directory_watcher', "~> 1.4.0"
   s.add_dependency 'redcarpet', "~> 2.1"
